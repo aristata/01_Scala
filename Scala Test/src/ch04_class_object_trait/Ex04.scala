@@ -4,6 +4,7 @@ object Ex04 {
   
   def main(args: Array[String]): Unit = {
     val richUser = new PaidUser("고길동", 35, 'M', 1000000)
+    richUser.sayName
     richUser.showMoney
   }
   
